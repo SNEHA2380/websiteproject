@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>GHOUSIA COLLEGE OF ENGINEERING</title>
+    <link rel="stylesheet"  href="Ghousia.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,100;1,300;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="ghousia.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="Faculty.html">FACULTY</a></li> 
+                    <li><a href="My%20Profile.html">MY PROFILE</a></li> 
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+         </nav>
+        
+       <h1>Our Courses</h1>
+        
+   </section>
+    
+    <!------------- Course ------------>
+    
+   <section class="course">
+    
+    <h1>Courses We Offer</h1>
+        <p>ComputerScience Engineering, civil Engineering, Mechanical Engineering</p>
+        
+        <div class="row">
+            <div class="course-col">
+            <h3>Computer Science & Engineering</h3>
+                <p>The present students’ strength is about 283. The department has been accredited twice by National Board of Accreditation (NBA), New Delhi. The department has eight separate computer laboratories, well equipped with modern computers, printers, scanners and UPS. The department library has good collection of prescribed books.
+                  Vision
+                    To be one of the best Computer Science & Engineering Departments in the entire nation producing world class engineers possessing excellent knowledge, skills, character and other attributes.</p>
+                    <img src="images/CSElab.png">
+                    <h3> COMPUTERSCIENCE LABS</h3>
+             </div>
+            <div class="course-col">
+            <h3>Civil Engineering</h3>
+                <p>The department has Research Centre since 2010, where 14 candidates are pursuing Ph.D., It also has M.E degree course in Structural Engineering since 2011·The department has teaching staff members comprising of 04 doctorates, and rest post graduates. 07 of the staff members are working in this institution from the past over 25 years. There are 07 supporting staff members. The present students’ strength is 462 including about 103 girls.
+                    Vision
+                To Transform the Department into a Centre of Excellence producing Quality Civil Engineers equipped with knowledge, skill, character and capability to compete nationally and globally. </p>
+                <img src="images/civillab.png">
+                    <h3> CIVIL LABS</h3>
+          </div>
+          <div class="course-col">
+            <h3>Mechanical Engineering</h3>
+            <p>The Mechanical Engineering Department was one of the First Departments to be started in this Institution in 1980. The Department offers UG, PG, MSc Engineering (By Research) and Ph.D. programmes. The Department was Accredited for 03 years by National Board of Accreditation (NBA) in the year 2004 and for 05 years in the year 2007. The department has bagged 01 UG university rank and 10 PG ranks.
+            Vision
+            To be globally recognized as the department providing outstanding Technical Education in the field of Mechanical Engineering to learners with scope for excellence in research and quality assured graduates possessing leadership skills </p>
+              <img src="images/mechanical.png">
+                    <h3> MECHANICAL LABS</h3>
+         </div>
+            <div class="course-col">
+            <h3>Electrical Engineering</h3>
+                <p> The department has well qualified; passionate and dedicated staff, most of who are engaged in path breaking research and development. With a current annual intake of 60 students from all parts of India
+                    Vision
+                 To be Recognized as Center of Excellence in Electrical and Electronics Engineering Education, Research and the Application of Knowledge to Benefit Society Globally.</p>
+                <img src="images/EEE.png">
+                    <h3> ELECTRICAL LABS</h3>
+                 </div>
+            <div class="course-col">
+            <h3>Electronics Engineering</h3>
+                <p>
+                The main aim of the department is to provide the quality education in the field of Electronics and Communication Engineering, as the global scene is exposed to new & Recent emerging technologies especially in Communication, VLSI subsystems and embedded technologies.
+                Vision
+                To be recognized as the best Electronics and Communication Engineering Department in our country by imparting good quality Education and moulding the students to become good citizens.
+                </p>
+                <img src="images/electronics.png">
+                    <h3> ELECTRONICS LABS</h3>
+            </div>
+       </section>
+            
+    
+    <!------------JavaScript for Toggle Menu-------->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+         function hideMenu(){
+            navLinks.style.right = "-200px";
+        
+    </script>
+    
+</body> 
+</html>            
